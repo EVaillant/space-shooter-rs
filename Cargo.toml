@@ -1,0 +1,18 @@
+[package]
+name = "space-shooter-rs"
+version = "0.1.0"
+readme = "README.md"
+license = "BSL-1.0"
+authors = ["Etienne Vaillant <vaillant.etienne@gmail.com>"]
+edition = "2018"
+documentation = "https://docs.rs/space-shooter-rs"
+homepage = "https://github.com/EVaillant/space-shooter-rs"
+repository = "https://github.com/EVaillant/space-shooter-rs"
+keywords = ["game"]
+categories = ["game"]
+exclude = []
+
+[dependencies]
+entity-system = { git = "https://github.com/EVaillant/entity-system-rs" }
+sdl2 = { version = "0.34", features = ["gfx"] }
+cgmath = "0.18.0"
